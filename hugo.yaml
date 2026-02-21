@@ -1,6 +1,6 @@
 baseURL: "https://energytech.powertrader.es/"
 languageCode: "es"
-title: "PowerTrader Tech"
+title: "PowerTrader Techy"
 theme: "PaperMod"
 pagination:
   pagerSize: 10
