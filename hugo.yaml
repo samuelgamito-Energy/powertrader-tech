@@ -26,12 +26,10 @@ params:
       Inteligencia artificial, algoritmos y herramientas para el trader eléctrico.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: github
-      url: "https://github.com/"
-    - name: rss
-      url: "/index.xml"
+    - name: linkedin
+      url: "https://linkedin.com/company/power-trader"
+    - name: x
+      url: "https://x.com/PowerSPTrader"
 
   cover:
     hidden: false
