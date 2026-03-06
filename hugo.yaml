@@ -6,9 +6,11 @@ pagination:
   pagerSize: 10
 
 params:
+  assets:
+    favicon: /favicon.svg
   label:
     icon: /logo.svg
-    iconHeight: 32
+    iconHeight: 80
   env: production
   author: PowerTrader
   description: "Tecnología e innovación en el sector energético."
