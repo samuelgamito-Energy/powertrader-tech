@@ -16,7 +16,8 @@ params:
   author: PowerTrader
   description: "Tecnología e innovación en el sector energético."
   keywords: [PowerTrader, tecnología energética, innovación, IA energía]
-  defaultTheme: dark
+  defaultTheme: "dark"
+  disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -24,17 +25,10 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true
   TocOpen: false
-
-  homeInfoParams:
-    Title: "🔬 PowerTrader Tech"
-    Content: >
-      Innovación tecnológica aplicada al mercado energético.
-      Inteligencia artificial, algoritmos y herramientas para el trader eléctrico.
-
   socialIcons:
-    - name: linkedin
+    - name: "linkedin"
       url: "https://linkedin.com/company/power-trader"
-    - name: x
+    - name: "x"
       url: "https://x.com/PowerSPTrader"
 
   cover:
@@ -44,25 +38,25 @@ params:
 
 menu:
   main:
-    - identifier: "powertrader"
+    - identifier: "universe"
       name: "↩ Volver a PowerTrader"
-      url: "https://powertrader.es/"
+      url: "https://powertrader.es"
       weight: 1
-    - identifier: inicio
-      name: Inicio
-      url: /
+    - identifier: "inicio"
+      name: "Inicio"
+      url: "/"
       weight: 10
-    - identifier: articulos
-      name: Artículos
-      url: /posts/
+    - identifier: "articulos"
+      name: "Artículos"
+      url: "/posts/"
       weight: 20
-    - identifier: sobre
-      name: Sobre
-      url: /about/
+    - identifier: "sobre"
+      name: "Sobre"
+      url: "/about/"
       weight: 30
-    - identifier: buscar
-      name: 🔍
-      url: /search/
+    - identifier: "buscar"
+      name: "🔍"
+      url: "/search/"
       weight: 40
 
 outputs:
